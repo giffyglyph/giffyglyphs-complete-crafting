@@ -1,0 +1,28 @@
+$panel--item__header--bg: #5490a4;
+
+.theme--pf {
+
+	.page--getting-started {
+
+    .table--professions,
+    .table--material-types,
+    .table--tools,
+    .table--material-essences {
+
+      .icon {
+        background: grayscale(#b38280);
+      }
+    }
+  }
+
+  .page--quickstart-materials {
+
+    .table--material-essences,
+    .table--monstrous-materials {
+
+      .icon {
+        background: grayscale(#b38280);
+      }
+    }
+  }
+}

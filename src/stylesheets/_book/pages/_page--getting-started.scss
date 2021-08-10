@@ -1,0 +1,85 @@
+// Styles for getting started pages.
+
+.page--getting-started {
+
+	.table--professions,
+	.table--material-types,
+	.table--tools {
+		@include table-column(1, center, 14%);
+		@include table-column(2, left, 25%);
+		@include table-column(3, left, 61%);
+
+		.icon {
+			background: #b38280;
+			padding: 2px;
+			height: 25px;
+			width: 25px;
+			margin-top: 2px;
+			box-sizing: border-box;
+			display: inline-block;
+			border-radius: 3px;
+
+			img {
+				height: 100%;
+			}
+		}
+	}
+
+	.table--crafting-cores {
+		@include table-column(1, left, 34%);
+		@include table-column(2, left, 33%);
+		@include table-column(3, right, 33%);
+	}
+
+	.table--material-rarities {
+		@include table-column(1, left, 27%);
+		@include table-column(2, left, 27%);
+		@include table-column(3, center, 23%);
+		@include table-column(4, right, 23%);
+	}
+
+	.table--material-essences {
+		@include table-column(1, center, 14%);
+		@include table-column(2, left, 25%);
+		@include table-column(3, left, 61%);
+
+		.icon {
+			background: #b38280;
+			padding: 2px;
+			height: 25px;
+			width: 25px;
+			margin-top: 2px;
+			box-sizing: border-box;
+			display: inline-block;
+			border-radius: 3px;
+
+			img {
+				height: 100%;
+			}
+		}
+	}
+
+  .table--harvesting-attempts {
+    @include table-column(1, left, 30%);
+		@include table-column(2, center, 35%);
+		@include table-column(3, center, 35%);
+
+    thead tr:nth-child(1) {
+      @include table-column(2, center, 70%);
+    }
+  }
+
+  .table--monster-size {
+    @include table-column(1, left, 52%);
+		@include table-column(2, center, 48%);
+  }
+
+  .table--monster-cr {
+    @include table-column(1, center, 48%);
+		@include table-column(2, left, 52%);
+  }
+
+  h3 + .panel--profession {
+    margin-top: 15px;
+  }
+}

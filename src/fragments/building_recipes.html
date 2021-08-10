@@ -1,0 +1,777 @@
+<html>
+	<body>
+		<book class="book">
+      <page class="page page--generic page--building-recipes" data-header-icon="socketed-hammer">
+        <h1>Quickstart Recipes</h1>
+        <p>Before you can craft a magic item, you need a crafting recipe. But how do you create new, flavorful recipes for your game?</p>
+        <p>This chapter introduces <i>quickstart recipes</i> and advice on how to create your own crafting recipes <i>fast</i>.</p>
+
+        <h2>Creating a Recipe</h2>
+        <p>To create a crafting recipe for your game, follow these three basic steps:</p>
+
+        <ol>
+          <li><strong>Choose a Profession and Tool:</strong> Pick one profession and one tool that is required to use the recipe.</li>
+          <li><strong>Choose a Rarity:</strong> Decide how rare your item is—the rarer the item, the harder it is to craft.</li>
+          <li><strong>Choose a Power and Utility:</strong> Decide how <i>powerful</i> your item is and how often it can be used.</li>
+          <li>
+            <p><strong>Assign Cores and Materials:</strong> Use the <i>Magic Items</i> tables to see how many crafting cores and crafting materials your recipe should require.</p>
+            <p>Combine these with <i>quickstart materials</i> to generate a set of lore-friendly components.</p>
+          </li>
+          <li><strong>Calculate any Arcane Dust:</strong> If your item needs to be shaped into a particular form, calculate how much arcane dust is required for the recipe.</li>
+          <li><strong>Set a Crafting Time:</strong> Finally, decide how long it takes to craft your item—the more powerful the item, the longer it will take.</li>
+        </ol>
+
+        <aside class="panel panel--aside">
+          <header class="panel__header">
+            <h4 class="panel__title">Adjust Where Necessary</h4>
+          </header>
+          <section class="panel__body">
+            <p>These tables assume a <i>standard</i> level of item power and crafting ability. Depending on the specifics of your item and world, you may want to increase or decrease some requirements to better suit the power level of your game.</p>
+          </section>
+        </aside>
+
+        <col-break></col-break>
+
+        <h3><span class="h3__highlight">A</span>Item Power</h3>
+        <p>Magic items come in all shapes and sizes with a boundless range of special powers—flaming swords, teleporting armor, life-giving potions, homing arrows, etc.</p>
+        <p>These items typically fall into one of two broad categories—<i>minor</i> items and <i>major</i> items:</p>
+
+        <ul>
+          <li><strong>Minor:</strong> Most consumables (i.e single or limited use items) and situational utility items.</li>
+          <li><strong>Major:</strong> Items that provide a <i>significant</i> combat or social benefit—weapons, armor, attack bonuses, summoning creatures, altering ability scores, etc.</li>
+        </ul>
+
+        <p>Use your best judgement and choose the category that best suits the power level of your item.</p>
+
+        <h3><span class="h3__highlight">B</span>Item Utility</h3>
+        <p>Magic items vary in their utility—some have a fixed number of applications before they expire, while others have long-lasting or permanent effects.</p>
+        <p>There are four categories of item utility: single, limited, charged, and permanent.</p>
+
+        <ul>
+          <li><strong>Single:</strong> This item can be used only once before it expires or is consumed.</li>
+          <li><strong>Limited:</strong> This item can be used a fixed number of times before it expires or is consumed.</li>
+          <li><strong>Charged:</strong> This item has a set number of uses that recharge after a period of time.</li>
+          <li><strong>Permanent:</strong> This item has a permanent effect that doesn't dimish under normal circumstances.</li>
+        </ul>
+
+        <p>Choose the utility that best describes the features of your magic item. If your item has multiple features (i.e. a limited <i>and</i> a permanent feature), use the higher grade.</p>
+      </page>
+      <page class="page page--generic page--building-recipes">       
+        <h3><span class="h3__highlight">C</span>Arcane Dust</h3>
+        <p>When you craft a magic item, <i>arcane dust</i> is used to help shape that item into a particular form—a breastplate for a +1 breastplate, a longsword for a frost brand longsword, a sheet of paper for a spell scroll, etc.</p>
+        <p>To find out how much arcane dust your recipe requires:</p>
+        <ol>
+          <li><strong>Choose a Shape:</strong> Choose a mundane (i.e. non-magical) item as the <i>fundamental form</i> for your magic item.</li>
+          <li><strong>Calculate the Cost:</strong> Translate the GP cost of the mundane item into units of <i>arcane dust</i>—the higher the rarity of the magic item, the more arcane dust required.</li>
+          <li><strong>Update the Recipe:</strong> Add the dust as a crafting requirement to your recipe.</li>
+        </ol>
+        
+        <list class="panel panel--list">
+          <header class="panel__header">
+            <h4 class="panel__title">Arcane Dust</h4>
+          </header>
+          <section class="panel__body">
+            <tables class="tables tables--arcane-dust">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Rarity</th>
+                    <th>Base Item Multiplier</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Common</td>
+                    <td>x1</td>
+                  </tr>
+                  <tr>
+                    <td>Uncommon</td>
+                    <td>x1</td>
+                  </tr>
+                  <tr>
+                    <td>Rare</td>
+                    <td>x2</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Rarity</th>
+                    <th>Base Item Multiplier</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Very Rare</td>
+                    <td>x4</td>
+                  </tr>
+                  <tr>
+                    <td>Legendary</td>
+                    <td>x8</td>
+                  </tr>
+                  <tr>
+                    <td><span class="empty">—</span></td>
+                    <td><span class="empty">—</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </tables>
+          </section>
+        </list>
+
+        <example class="panel panel--example">
+          <section class="panel__body">
+            <p>The GM wants to create a recipe for a <i>rare</i> magic item: a piece of <strong>+1 Studded Leather Armor</strong>.</p>
+            <p>The magic item will take the form of <i>studded leather armor</i> (commonly valued at 45 GP), and so will require 90 units of <i>arcane dust</i>.</p>
+          </section>
+        </example>
+
+        <recipe class='panel panel--recipe recipe--tailor recipe--artisan'>
+					<header class='panel__header'>
+						<h4 class='panel__title'>+1 Studded Leather Armor</h4>
+						<ul class='panel__tags'>
+							<li>Crafting</li>
+							<li>Recipe</li>
+							<li>Armor</li>
+						</ul>
+						<div class="panel__icons">
+							<div class="recipe__profession"></div>
+							<div class="recipe__rarity"></div>
+						</div>
+					</header>
+					<section class='panel__body'>
+						<ul class="recipe__details">
+								<li><strong>Profession:</strong> Artisan Tailor</li>
+								<li><strong>Requirements:</strong> Leatherworker's Tools, Arcane Dust (90)</li>
+								<li><strong>Crafting Time:</strong> 1 week</li>
+						</ul>
+						<div class="recipe__components">
+							<div class="core core--rare core--royal">
+								<div class="quantity">4</div>
+								<div class="name">Royal Core</div>
+								<div class="tags">Rare, Core</div>
+								<div class="icons">
+									<div class="rarity"></div>
+									<div class="type"></div>
+									<div class="essence"></div>
+								</div>
+							</div>
+							<div class="material material--rare material--fabric material--earth">
+								<div class="quantity">15</div>
+								<div class="name">Underbelly Hide</div>
+								<div class="tags">Rare, Fabric, Earth</div>
+								<div class="icons">
+									<div class="rarity"></div>
+									<div class="type"></div>
+									<div class="essence"></div>
+								</div>
+							</div>
+							<div class="material material--uncommon material--durable material--earth">
+								<div class="quantity">10</div>
+								<div class="name">Bone Ash</div>
+								<div class="tags">Uncommon, Durable, Earth</div>
+								<div class="icons">
+									<div class="rarity"></div>
+									<div class="type"></div>
+									<div class="essence"></div>
+								</div>
+							</div>
+							<div class="material material--common material--creative material--earth">
+								<div class="quantity">5</div>
+								<div class="name">Natural Pigment</div>
+								<div class="tags">Common, Creative, Earth</div>
+								<div class="icons">
+									<div class="rarity"></div>
+									<div class="type"></div>
+									<div class="essence"></div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</recipe>
+
+        <recipe class='panel panel--recipe recipe--apothecary recipe--expert'>
+					<header class='panel__header'>
+						<h4 class='panel__title'>Potion of Fire Resistance</h4>
+						<ul class='panel__tags'>
+							<li>Crafting</li>
+							<li>Recipe</li>
+							<li>Potion</li>
+						</ul>
+						<div class="panel__icons">
+							<div class="recipe__profession"></div>
+							<div class="recipe__rarity"></div>
+						</div>
+					</header>
+					<section class='panel__body'>
+						<ul class="recipe__details">
+								<li><strong>Profession:</strong> Expert Apothecary</li>
+								<li><strong>Requirements:</strong> Alchemist's Supplies</li>
+								<li><strong>Crafting Time:</strong> 1 day</li>
+						</ul>
+						<div class="recipe__components">
+							<div class="core core--uncommon core--royal">
+								<div class="quantity">1</div>
+								<div class="name">Pristine Core</div>
+								<div class="tags">Uncommon, Core</div>
+								<div class="icons">
+									<div class="rarity"></div>
+									<div class="type"></div>
+									<div class="essence"></div>
+								</div>
+							</div>
+							<div class="material material--uncommon material--chemical material--fire">
+								<div class="quantity">3</div>
+								<div class="name">Bottled Dragonbreath</div>
+								<div class="tags">Uncommon, Chemical, Fire</div>
+								<div class="icons">
+									<div class="rarity"></div>
+									<div class="type"></div>
+									<div class="essence"></div>
+								</div>
+							</div>
+							<div class="material material--common material--curio material--fire">
+								<div class="quantity">2</div>
+								<div class="name">Ruby Glass</div>
+								<div class="tags">Common, Curio, Fire</div>
+								<div class="icons">
+									<div class="rarity"></div>
+									<div class="type"></div>
+									<div class="essence"></div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</recipe>
+
+        <col-break></col-break>
+
+        <h3><span class="h3__highlight">D</span>Crafting Time</h3>
+        <p>As a general rule-of-thumb, magic items take between 1 and 7 days to craft. Choose a crafting time that best suits your item power and utility categories.</p>
+
+        <list class="panel panel--list">
+          <header class="panel__header">
+            <h4 class="panel__title">Crafting Times</h4>
+          </header>
+          <section class="panel__body">
+            <table class="table table--crafting-times">
+              <thead>
+                <tr>
+                  <th>Power</th>
+                  <th>Utility</th>
+                  <th>Crafting Time</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Minor</td>
+                  <td>Single</td>
+                  <td>1 day</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Limited</td>
+                  <td>2 days</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Charges</td>
+                  <td>3 days</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Permanent</td>
+                  <td>4 days</td>
+                </tr>
+                <tr>
+                  <td>Major</td>
+                  <td>Single</td>
+                  <td>2 days</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Limited</td>
+                  <td>3 days</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Charges</td>
+                  <td>5 days</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td>Permanent</td>
+                  <td>7 days</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </list>
+
+        <h2>Mundane Items</h3>
+        <p>To craft a mundane (i.e. non-magical) item, you don't require a specific crafting recipe—just a <i>relevant</i> crafting tool and materials.</p>
+        <p>You may use any combination of crafting materials equal to—or exceeding—the common value of the mundane item.</p>
+
+        <h3>Profession Requirements</h3>
+        <p>Some mundane items require a level of <i>professional</i> expertise to craft. Achieve higher ranks in your profession to craft mundane items of greater value.</p>
+
+        <list class="panel panel--list">
+          <header class="panel__header">
+            <h4 class="panel__title">Mundane Requirements</h4>
+          </header>
+          <section class="panel__body">
+            <tables class="tables tables--minimum-rank">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Profession Rank</th>
+                    <th>Max. Value (GP)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><span class="empty">—</span></td>
+                    <td>10</td>
+                  </tr>
+                  <tr>
+                    <td>Apprentice</td>
+                    <td>100</td>
+                  </tr>
+                  <tr>
+                    <td>Expert</td>
+                    <td>600</td>
+                  </tr>
+                </tbody>
+              </table>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Profession Rank</th>
+                    <th>Max. Value (GP)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Artisan</td>
+                    <td>3,600</td>
+                  </tr>
+                  <tr>
+                    <td>Master</td>
+                    <td>21,600</td>
+                  </tr>
+                  <tr>
+                    <td>Grandmaster</td>
+                    <td><span class="empty">—</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </tables>
+          </section>
+        </list>
+
+        <h3>Crafting Time</h3>
+        <p>The time required to craft a mundane item depends on the <i>effort</i>: trivial (0.5 days), minor (2 days), or major (7 days).</p>
+        <p>Choose an effort that makes most sense for your item by taking into account size, complexity, and value.</p>
+
+        <example class="panel panel--example panel--example--placeholder">
+          <section class="panel__body">
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+          </section>
+        </example>
+      </page>
+      <page class="page page--generic page--building-recipes">
+        <div class="layout--col-wide">
+					<list class="panel panel--list">
+						<header class="panel__header">
+							<h4 class="panel__title">Magic Items</h4>
+						</header>
+						<section class="panel__body">
+							<table class="table table--quickstart-recipes">
+								<thead>
+									<tr>
+                    <th>Rarity</th>
+                    <th>Uses</th>
+                    <th>Cores</th>
+                    <th>Material 1</th>
+                    <th>Material 2</th>
+                    <th>Material 3</th>
+                    <th>Value (GP)</th>
+									</tr>
+								</thead>
+								<tbody>
+                  <tr class="header">
+                    <td colspan="7"><span>Minor Magic Items</span></td>
+                  </tr>
+									<tr class="rowspan odd">
+                    <td>Common</td>
+                    <td>Single</td>
+                    <td class="cores">1 × common</td>
+                    <td>3 × common</td><td><span class="empty">—</span></td><td><span class="empty">—</span></td>
+                    <td>22</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td></td>
+                    <td>Limited</td>
+                    <td class="cores">1 × common</td>
+                    <td>5 × common</td><td><span class="empty">—</span></td><td><span class="empty">—</span></td>
+                    <td>24</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td></td>
+                    <td>Charges</td>
+                    <td class="cores">2 × common</td>
+                    <td>6 × common</td><td><span class="empty">—</span></td><td><span class="empty">—</span></td>
+                    <td>43</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td></td>
+                    <td>Permanent</td>
+                    <td class="cores">2 × common</td>
+                    <td>8 × common</td><td><span class="empty">—</span></td><td><span class="empty">—</span></td>
+                    <td>46</td>
+									</tr>
+                  <tr class="rowspan even">
+                    <td>Uncommon</td>
+                    <td>Single</td>
+                    <td class="cores">1 × uncommon</td>
+                    <td>3 × uncommon</td><td>2 × common</td><td><span class="empty">—</span></td>
+                    <td>135</td>
+									</tr>
+                  <tr class="rowspan even">
+                    <td></td>
+                    <td>Limited</td>
+                    <td class="cores">1 × uncommon</td>
+                    <td>5 × uncommon</td><td>3 × common</td><td><span class="empty">—</span></td>
+                    <td>150</td>
+									</tr>
+                  <tr class="rowspan even">
+                    <td></td>
+                    <td>Charges</td>
+                    <td class="cores">2 × uncommon</td>
+                    <td>6 × uncommon</td><td>4 × common</td><td><span class="empty">—</span></td>
+                    <td>270</td>
+									</tr>
+                  <tr class="rowspan even">
+                    <td></td>
+                    <td>Permanent</td>
+                    <td class="cores">2 × uncommon</td>
+                    <td>8 × uncommon</td><td>5 × common</td><td><span class="empty">—</span></td>
+                    <td>285</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td>Rare</td>
+                    <td>Single</td>
+                    <td class="cores">1 × rare</td>
+                    <td>3 × rare</td><td>2 × uncommon</td><td>1 × common</td>
+                    <td>840</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td></td>
+                    <td>Limited</td>
+                    <td class="cores">1 × rare</td>
+                    <td>5 × rare</td><td>3 × uncommon</td><td>2 × common</td>
+                    <td>935</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td></td>
+                    <td>Charges</td>
+                    <td class="cores">2 × rare</td>
+                    <td>6 × rare</td><td>4 × uncommon</td><td>2 × common</td>
+                    <td>1,675</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td></td>
+                    <td>Permanent</td>
+                    <td class="cores">2 × rare</td>
+                    <td>8 × rare</td><td>5 × uncommon</td><td>3 × common</td>
+                    <td>1,775</td>
+									</tr>
+                  <tr class="rowspan even">
+                    <td>Very Rare</td>
+                    <td>Single</td>
+                    <td class="cores">1 × very rare</td>
+                    <td>3 × very rare</td><td>2 × rare</td><td>1 × uncommon</td>
+                    <td>4,910</td>
+									</tr>
+                  <tr class="rowspan even">
+                    <td></td>
+                    <td>Limited</td>
+                    <td class="cores">1 × very rare</td>
+                    <td>5 × very rare</td><td>3 × rare</td><td>2 × uncommon</td>
+                    <td>5,495</td>
+									</tr>
+                  <tr class="rowspan even">
+                    <td></td>
+                    <td>Charges</td>
+                    <td class="cores">2 × very rare</td>
+                    <td>6 × very rare</td><td>4 × rare</td><td>2 × uncommon</td>
+                    <td>9,825</td>
+									</tr>
+                  <tr class="rowspan even">
+                    <td></td>
+                    <td>Permanent</td>
+                    <td class="cores">2 × very rare</td>
+                    <td>8 × very rare</td><td>5 × rare</td><td>3 × uncommon</td>
+                    <td>10,405</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td>Legendary</td>
+                    <td>Single</td>
+                    <td class="cores">1 × legendary</td>
+                    <td>3 × legendary</td><td>2 × very rare</td><td>1 × rare</td>
+                    <td>28,625</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td></td>
+                    <td>Limited</td>
+                    <td class="cores">1 × legendary</td>
+                    <td>5 × legendary</td><td>3 × very rare</td><td>2 × rare</td>
+                    <td>32,020</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td></td>
+                    <td>Charges</td>
+                    <td class="cores">2 × legendary</td>
+                    <td>6 × legendary</td><td>4 × very rare</td><td>2 × rare</td>
+                    <td>57,250</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td></td>
+                    <td>Permanent</td>
+                    <td class="cores">2 × legendary</td>
+                    <td>8 × legendary</td><td>5 × very rare</td><td>3 × rare</td>
+                    <td>60,645</td>
+									</tr>
+                  <tr class="header">
+                    <td colspan="7"><span>Major Magic Items</span></td>
+                  </tr>
+									<tr class="rowspan odd">
+                    <td>Common</td>
+                    <td>Single</td>
+                    <td class="cores">2 × common</td>
+                    <td>6 × common</td><td><span class="empty">—</span></td><td><span class="empty">—</span></td>
+                    <td>43</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td></td>
+                    <td>Limited</td>
+                    <td class="cores">2 × common</td>
+                    <td>9 × common</td><td><span class="empty">—</span></td><td><span class="empty">—</span></td>
+                    <td>47</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td></td>
+                    <td>Charges</td>
+                    <td class="cores">3 × common</td>
+                    <td>11 × common</td><td><span class="empty">—</span></td><td><span class="empty">—</span></td>
+                    <td>67</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td></td>
+                    <td>Permanent</td>
+                    <td class="cores">4 × common</td>
+                    <td>15 × common</td><td><span class="empty">—</span></td><td><span class="empty">—</span></td>
+                    <td>90</td>
+									</tr>
+                  <tr class="rowspan even">
+                    <td>Uncommon</td>
+                    <td>Single</td>
+                    <td class="cores">2 × uncommon</td>
+                    <td>6 × uncommon</td><td>4 × common</td><td><span class="empty">—</span></td>
+                    <td>270</td>
+									</tr>
+                  <tr class="rowspan even">
+                    <td></td>
+                    <td>Limited</td>
+                    <td class="cores">2 × uncommon</td>
+                    <td>9 × uncommon</td><td>6 × common</td><td><span class="empty">—</span></td>
+                    <td>295</td>
+									</tr>
+                  <tr class="rowspan even">
+                    <td></td>
+                    <td>Charges</td>
+                    <td class="cores">3 × uncommon</td>
+                    <td>11 × uncommon</td><td>8 × common</td><td><span class="empty">—</span></td>
+                    <td>420</td>
+									</tr>
+                  <tr class="rowspan even">
+                    <td></td>
+                    <td>Permanent</td>
+                    <td class="cores">4 × uncommon</td>
+                    <td>15 × uncommon</td><td>10 × common</td><td><span class="empty">—</span></td>
+                    <td>565</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td>Rare</td>
+                    <td>Single</td>
+                    <td class="cores">2 × rare</td>
+                    <td>6 × rare</td><td>4 × uncommon</td><td>2 × common</td>
+                    <td>1,675</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td></td>
+                    <td>Limited</td>
+                    <td class="cores">2 × rare</td>
+                    <td>9 × rare</td><td>6 × uncommon</td><td>3 × common</td>
+                    <td>1,825</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td></td>
+                    <td>Charges</td>
+                    <td class="cores">3 × rare</td>
+                    <td>11 × rare</td><td>8 × uncommon</td><td>4 × common</td>
+                    <td>2,620</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td></td>
+                    <td>Permanent</td>
+                    <td class="cores">4 × rare</td>
+                    <td>15 × rare</td><td>10 × uncommon</td><td>5 × common</td>
+                    <td>3,500</td>
+									</tr>
+                  <tr class="rowspan even">
+                    <td>Very Rare</td>
+                    <td>Single</td>
+                    <td class="cores">2 × very rare</td>
+                    <td>6 × very rare</td><td>4 × rare</td><td>2 × uncommon</td>
+                    <td>9,825</td>
+									</tr>
+                  <tr class="rowspan even">
+                    <td></td>
+                    <td>Limited</td>
+                    <td class="cores">2 × very rare</td>
+                    <td>9 × very rare</td><td>6 × rare</td><td>3 × uncommon</td>
+                    <td>10,720</td>
+									</tr>
+                  <tr class="rowspan even">
+                    <td></td>
+                    <td>Charges</td>
+                    <td class="cores">3 × very rare</td>
+                    <td>11 × very rare</td><td>8 × rare</td><td>4 × uncommon</td>
+                    <td>15,360</td>
+									</tr>
+                  <tr class="rowspan even">
+                    <td></td>
+                    <td>Permanent</td>
+                    <td class="cores">4 × very rare</td>
+                    <td>15 × very rare</td><td>10 × rare</td><td>5 × uncommon</td>
+                    <td>20,540</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td>Legendary</td>
+                    <td>Single</td>
+                    <td class="cores">2 × legendary</td>
+                    <td>6 × legendary</td><td>4 × very rare</td><td>2 × rare</td>
+                    <td>57,250</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td></td>
+                    <td>Limited</td>
+                    <td class="cores">2 × legendary</td>
+                    <td>9 × legendary</td><td>6 × very rare</td><td>3 × rare</td>
+                    <td>62,480</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td></td>
+                    <td>Charges</td>
+                    <td class="cores">3 × legendary</td>
+                    <td>11 × legendary</td><td>8 × very rare</td><td>4 × rare</td>
+                    <td>89,545</td>
+									</tr>
+                  <tr class="rowspan odd">
+                    <td></td>
+                    <td>Permanent</td>
+                    <td class="cores">4 × legendary</td>
+                    <td>15 × legendary</td><td>10 × very rare</td><td>5 × rare</td>
+                    <td>119,730</td>
+									</tr>
+                </tbody>
+              </table>
+            </section>
+          </list>
+        </div>
+
+        <example class="panel panel--example panel--example--placeholder">
+          <section class="panel__body">
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+          </section>
+        </example>
+
+        <col-break></col-break>
+
+        <recipe class='panel panel--recipe recipe--tinkerer recipe--expert'>
+					<header class='panel__header'>
+						<h4 class='panel__title'>Ring of Water Walking</h4>
+						<ul class='panel__tags'>
+							<li>Crafting</li>
+							<li>Recipe</li>
+							<li>Ring</li>
+						</ul>
+						<div class="panel__icons">
+							<div class="recipe__profession"></div>
+							<div class="recipe__rarity"></div>
+						</div>
+					</header>
+					<section class='panel__body'>
+						<ul class="recipe__details">
+								<li><strong>Profession:</strong> Expert Tinkerer</li>
+								<li><strong>Requirements:</strong> Jeweler's Tools, Arcane Dust (5)</li>
+								<li><strong>Crafting Time:</strong> 1 week</li>
+						</ul>
+						<div class="recipe__components">
+							<div class="core core--uncommon core--pristine">
+								<div class="quantity">4</div>
+								<div class="name">Pristine Core</div>
+								<div class="tags">Uncommon, Core</div>
+								<div class="icons">
+									<div class="rarity"></div>
+									<div class="type"></div>
+									<div class="essence"></div>
+								</div>
+							</div>
+							<div class="material material--uncommon material--curio material--water">
+								<div class="quantity">15</div>
+								<div class="name">Shimmering Husk</div>
+								<div class="tags">Uncommon, Curio, Water</div>
+								<div class="icons">
+									<div class="rarity"></div>
+									<div class="type"></div>
+									<div class="essence"></div>
+								</div>
+							</div>
+							<div class="material material--common material--creative material--air">
+								<div class="quantity">10</div>
+								<div class="name">Windy Sap</div>
+								<div class="tags">Common, Creative, Air</div>
+								<div class="icons">
+									<div class="rarity"></div>
+									<div class="type"></div>
+									<div class="essence"></div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</recipe>
+      </page>
+		</book>
+	</body>
+</html>

@@ -1,0 +1,9 @@
+// Styles for profession feats pages.
+
+.page--profession-feats {
+
+	.table--profession-levels {
+		@include table-column(1, center, 30%);
+		@include table-column(2, left, 70%);
+	}
+}
