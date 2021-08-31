@@ -1,0 +1,12 @@
+{
+	"name": "complete_crafting",
+	"version": "1.0.1",
+	"module": "./src/modules/complete_crafting.js",
+	"formats": [
+		{
+			"name": "gg-5e-book",
+			"version": "2.0.0",
+			"languages": [ "en" ]
+		}
+	]
+}

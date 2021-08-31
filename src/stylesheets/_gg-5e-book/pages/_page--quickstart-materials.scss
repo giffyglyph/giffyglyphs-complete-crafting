@@ -2,9 +2,9 @@
 
 .page--quickstart-materials {
 
-  .table--material-rarities {
+	.table--material-rarities {
 		@include table-column(1, left, 25%);
-    @include table-column(2, center, 14%);
+		@include table-column(2, center, 14%);
 		@include table-column(3, left, 27%);
 		@include table-column(4, center, 14%);
 		@include table-column(5, right, 20%);
@@ -31,17 +31,17 @@
 		}
 	}
 
-  .table--harvesting-attempts {
-    @include table-column(1, left, 30%);
+	.table--harvesting-attempts {
+		@include table-column(1, left, 30%);
 		@include table-column(2, center, 35%);
 		@include table-column(3, center, 35%);
 
-    thead tr:nth-child(1) {
-      @include table-column(2, center, 70%);
-    }
-  }
+		thead tr:nth-child(1) {
+			@include table-column(2, center, 70%);
+		}
+	}
 
-  .table--monstrous-materials {
+	.table--monstrous-materials {
 		@include table-column(1, left, 14%);
 		@include table-column(2, left, 14%);
 		@include table-column(3, left, 18%);
@@ -49,20 +49,10 @@
 		@include table-column(5, left, 18%);
 		@include table-column(6, left, 18%);
 
-		[rowspan="2"] {
-			margin-bottom: -15px;
-			height: 30px;
+		.wide {
+			padding-right: 0;
+			letter-spacing: -0.1px;
 		}
-
-		[rowspan="6"] {
-			margin-bottom: -75px;
-			height: 90px;
-		}
-
-    .wide {
-      padding-right: 0;
-      letter-spacing: -0.1px;
-    }
 
 		.rowspan-child {
 			@include table-column(1, left, 14%);
@@ -78,24 +68,24 @@
 		}
 
 		.icon {
-      height: 14px;
-      background: #ab7383;
-      display: inline-flex;
-      font-size: 14px;
-      padding: 1px;
-      box-sizing: border-box;
-      flex-shrink: 0;
-      border-radius: 3px;
-      width: 14px;
-      margin-bottom: -4px;
-      position: relative;
-      margin-top: -3px;
-      position: relative;
-      top: 2px;
+			height: 14px;
+			background: #ab7383;
+			display: inline-flex;
+			font-size: 14px;
+			padding: 1px;
+			box-sizing: border-box;
+			flex-shrink: 0;
+			border-radius: 3px;
+			width: 14px;
+			margin-bottom: -4px;
+			position: relative;
+			margin-top: -3px;
+			position: relative;
+			top: 2px;
 
-      img {
-        height: 100%;
-      }
+			img {
+				height: 100%;
+			}
 		}
 
 		.icon--chemical img {

@@ -1,0 +1,39 @@
+// Styles for building recipes pages.
+
+.page--building-recipes {
+
+	.table--quickstart-recipes {
+		@include table-column(1, left, 14%);
+		@include table-column(2, left, 14%);
+		@include table-column(3, left, 15%);
+		@include table-column(4, left, 15%);
+		@include table-column(5, left, 15%);
+		@include table-column(6, left, 15%);
+		@include table-column(7, right, 12%);
+
+		.header td {
+			width: 100%;
+		}
+	}
+
+	.tables--arcane-dust {
+		@include table-column(1, left, 55%);
+		@include table-column(2, center, 45%);
+	}
+
+	.table--profession-feats {
+		@include table-column(1, left, 30%);
+		@include table-column(2, left, 70%);
+	}
+
+	.table--crafting-times {
+		@include table-column(1, left, 25%);
+		@include table-column(2, left, 30%);
+		@include table-column(3, center, 45%);
+	}
+
+	.tables--minimum-rank .table {
+		@include table-column(1, left, 50%);
+		@include table-column(2, center, 50%);
+	}
+}

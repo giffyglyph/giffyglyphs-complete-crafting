@@ -1,122 +1,137 @@
 {
-    "meta": {
-      "version":"0.1.0",
-      "created":"August 2021",
-      "author":"Giffyglyph",
-      "title":{
-        "short":"Complete Crafting",
-        "long":"Giffyglyph's Complete Crafting"
-      },
-      "description":"Add crafting professions and recipes to your D&D 5e games with Giffyglyph's Complete Crafting.",
-      "keywords":[
-        "dungeons",
-        "dragons",
-        "D&D",
-        "5e",
-        "Giffyglyph",
-        "Complete Crafting"
-      ],
-      "urls":{
-        "pdf":"https://drive.google.com/file/d/1ufAyAnP4YTyJmOvyFQwnJZoTMTe95ETt/view"
-      }
-    },
-    "contents":[
-      {
-        "type":"PAGE_INTRODUCTION",
-        "title":"Giffyglyph's Complete Crafting",
-        "blurb":"<p>A magic item can make all the difference in a deadly battle. Many adventurers are content to beg, borrow, and steal their magic items during adventures, waiting to see which item will randomly fall into their lap—but <i>some</i> adventurers take destiny into their own hands. Flaming swords, resilient armors, healing potions, magic rings—with the right tools and the right training, you can master the fine art of arcane craftsmanship.</p><p>Master a crafting profession and learn special recipes. Harvest materials from monsters and travel the world in search of crafting cores. Cook mouthwatering meals, weave fancy fabrics, and forge great gear.</p><p>Grab your tools, hone your creative instincts, and turn trash into treasure with <i>Giffyglyph's Complete Crafting</i>...</p>",
-        "features":[
-          "Crafting rules for both magic and mundane items.",
-          "Master six unique <strong>crafting professions</strong>—apothecary, artist, builder, culinarian, tailor, and tinkerer.",
-          "Collect <strong>crafting recipes</strong> to expand your skillset.",
-          "Gather <strong>crafting materials</strong> from monsters.",
-          "Hunt for special <strong>crafting cores</strong> in your adventures.",
-          "Join a <strong>crafting guild</strong> and rise in the ranks from apprentice to grandmaster.",
-          "Quickstart tables and advice to build your own materials and recipes in seconds.",
-          "And many more..."
-        ]
-      },
-      {
-        "type":"SECTION",
-        "chapters":[
-          {
-            "filename":"getting_started"
-          },
-          {
-            "filename":"profession_feats"
-          },
-          {
-            "filename":"quickstart_materials"
-          },
-          {
-            "filename":"building_recipes"
-          }
-        ]
-      }
-    ],
-    "patrons":{
-      "total": 387,
-      "sigils": [
-        {
-          "name":"Ady Veisz Dragia",
-          "title":"Collector Enthusiast"
-        },
-        {
-          "name":"AlDragonus",
-          "title":""
-        },
-        {
-          "name":"Alexander von Bose",
-          "title":""
-        },
-        {
-          "name":"Anthony Campla",
-          "title":""
-        },
-        {
-          "name":"Arthur Bauer",
-          "title":""
-        },
-        {
-          "name":"Barkston",
-          "title":""
-        },
-        {
-          "name":"Birb Marrows",
-          "title":""
-        },
-        {
-          "name":"damon1245",
-          "title":""
-        },
-        {
-          "name":"Dario Hajic",
-          "title":""
-        },
-        {
-          "name":"FC Wesel",
-          "title":""
-        },
-        {
-          "name":"Faolan Twinbear",
-          "title":""
-        },
-        {
-          "name":"Hoots Kenku",
-          "title":""
-        },
-        {
-          "name":"Michael C. Miller",
-          "title":""
-        },
-        {
-          "name":"Necrotic Fawn",
-          "title":""
-        },
-        {
-          "name":"Strider",
-          "title":"The Great Distrupter"
-        }
-      ]
-    }
-  }
+	"output":{
+		"filename":"giffyglyphs_complete_crafting"
+	},
+	"meta": {
+		"version":"0.1.1",
+		"created":"August 2021",
+		"author":"Giffyglyph",
+		"title":{
+			"short":"Complete Crafting",
+			"long":"Giffyglyph's Complete Crafting"
+		},
+		"description":"Add crafting professions and recipes to your D&D 5e games with Giffyglyph's Complete Crafting.",
+		"keywords":[
+			"dungeons",
+			"dragons",
+			"D&D",
+			"5e",
+			"Giffyglyph",
+			"Complete Crafting"
+		]
+	},
+	"contents":[
+		{
+			"type":"PAGE_INTRODUCTION",
+			"title":"Giffyglyph's Complete Crafting",
+			"blurb":"<p>A magic item can make all the difference in a deadly battle. Many adventurers are content to beg, borrow, and steal their magic items during adventures, waiting to see which item will randomly fall into their lap—but <i>some</i> adventurers take destiny into their own hands. Flaming swords, resilient armors, healing potions, magic rings—with the right tools and the right training, you can master the fine art of arcane craftsmanship.</p><p>Master a crafting profession and learn special recipes. Harvest materials from monsters and travel the world in search of crafting cores. Cook mouthwatering meals, weave fancy fabrics, and forge great gear.</p><p>Grab your tools, hone your creative instincts, and turn trash into treasure with <i>Giffyglyph's Complete Crafting</i>...</p>",
+			"features":[
+				"Crafting rules for both magic and mundane items.",
+				"Master six unique <strong>crafting professions</strong>—apothecary, artist, builder, culinarian, tailor, and tinkerer.",
+				"Collect <strong>crafting recipes</strong> to expand your skillset.",
+				"Gather <strong>crafting materials</strong> from monsters.",
+				"Hunt for special <strong>crafting cores</strong> in your adventures.",
+				"Join a <strong>crafting guild</strong> and rise in the ranks from apprentice to grandmaster.",
+				"Quickstart tables and advice to build your own materials and recipes in seconds.",
+				"And many more..."
+			]
+		},
+		{
+			"type":"SECTION",
+			"chapters":[
+				{
+					"filename":"getting_started"
+				},
+				{
+					"filename":"profession_feats"
+				},
+				{
+					"filename":"quickstart_materials"
+				},
+				{
+					"filename":"building_recipes"
+				}
+			]
+		},
+		{
+			"type":"EARLY_ACCESS",
+			"icon":{
+				"filename":"stone-crafting",
+				"css":"transform: scale(1.3)"
+			}
+		}
+	],
+	"patrons":{
+		"total": 418,
+		"sigils": [
+			{
+				"name":"Adam Mote",
+				"title":""
+			},
+			{
+				"name":"Ady Veisz Dragia",
+				"title":"Collector Enthusiast"
+			},
+			{
+				"name":"AlDragonus",
+				"title":""
+			},
+			{
+				"name":"Alexander von Bose",
+				"title":""
+			},
+			{
+				"name":"Anthony Campla",
+				"title":""
+			},
+			{
+				"name":"Arthur Bauer",
+				"title":""
+			},
+			{
+				"name":"Barkston",
+				"title":""
+			},
+			{
+				"name":"Berke Canatar",
+				"title":""
+			},
+			{
+				"name":"Birb Marrows",
+				"title":""
+			},
+			{
+				"name":"damon1245",
+				"title":""
+			},
+			{
+				"name":"Dario Hajic",
+				"title":""
+			},
+			{
+				"name":"FC Wesel",
+				"title":""
+			},
+			{
+				"name":"Faolan Twinbear",
+				"title":""
+			},
+			{
+				"name":"Hoots Kenku",
+				"title":""
+			},
+			{
+				"name":"Michael C. Miller",
+				"title":""
+			},
+			{
+				"name":"Necrotic Fawn",
+				"title":""
+			},
+			{
+				"name":"Strider",
+				"title":"The Great Distrupter"
+			}
+		]
+	}
+}

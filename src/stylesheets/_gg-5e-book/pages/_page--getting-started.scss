@@ -59,27 +59,27 @@
 		}
 	}
 
-  .table--harvesting-attempts {
-    @include table-column(1, left, 30%);
+	.table--harvesting-attempts {
+		@include table-column(1, left, 30%);
 		@include table-column(2, center, 35%);
 		@include table-column(3, center, 35%);
 
-    thead tr:nth-child(1) {
-      @include table-column(2, center, 70%);
-    }
-  }
+		thead tr:nth-child(1) {
+			@include table-column(2, center, 70%);
+		}
+	}
 
-  .table--monster-size {
-    @include table-column(1, left, 52%);
+	.table--monster-size {
+		@include table-column(1, left, 52%);
 		@include table-column(2, center, 48%);
-  }
+	}
 
-  .table--monster-cr {
-    @include table-column(1, center, 48%);
+	.table--monster-cr {
+		@include table-column(1, center, 48%);
 		@include table-column(2, left, 52%);
-  }
+	}
 
-  h3 + .panel--profession {
-    margin-top: 15px;
-  }
+	h3 + .panel--profession {
+		margin-top: 15px;
+	}
 }

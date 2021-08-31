@@ -6,5 +6,10 @@
 [![Twitter](https://img.shields.io/twitter/follow/giffyglyph?color=%231DA1F2&style=flat-square)](http://twitter.com/giffyglyph)
 [![Twitch](https://img.shields.io/twitch/status/giffyglyph?color=%23a45ee5&style=flat-square)](http://twitch.tv/giffyglyph)
 
-## v0.1.0
+## v1.0.1
+* Fixed assorted typos (spotted by Strider).
+* Fixed broken table headers for monstrous materials / recipe components.
+* Update project to support latest Book Binder restructure.
+
+## v1.0.0
 * Added chapters: Getting Started, Profession Feats, Quickstart Materials, and Quickstart Recipes.
